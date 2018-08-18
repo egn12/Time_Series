@@ -1,0 +1,34 @@
+---
+title: "PS1_GSchool"
+author: "Elba GN"
+date: "August 18, 2018"
+output: html_document
+---
+
+a. Generate $T = 100$ observations from the following time series processes:
+
+i) White Noise
+
+$y_t = \epsilon_t$
+
+ii) Moving Average
+
+$y_t = 1.2 + \epsilon_t + 0.6\epsilon_{t-1}$
+
+iii) Autoregressive Process AR(1)
+
+$y_t = 0.2 + 0.9y_t 1 + \epsilon_t$
+
+iv) Autoregressive Process AR(2)
+
+where $\epsilon_t$ is iid and $N(0, 0.5)$ for all processes
+
+
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
